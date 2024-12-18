@@ -1,4 +1,5 @@
 # Ignore Python bytecode files
+.ipynb_checkpoints/
 env1/
 temp_images/
 __pycache__/
