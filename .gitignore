@@ -1,0 +1,21 @@
+# Ignore Python bytecode files
+pigenv
+.ipynb_checkpoints/
+env1/
+temp_images/
+__pycache__/
+pycache/
+*.pyc
+*.pyo
+
+# Ignore virtual environments
+venv/
+env/
+
+# Ignore log files and temporary files
+*.log
+*.tmp
+
+# Ignore system files
+.DS_Store
+Thumbs.db
