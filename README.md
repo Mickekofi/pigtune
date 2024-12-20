@@ -1,6 +1,6 @@
 =<p align="center">
   <a href="https://t.me/EyeTubeAiBot">
-    <img src="https://github.com/Mickekofi/pigtune/blob/master/logo.jpg" width="130">
+    <img src="https://github.com/Mickekofi/pigtune/blob/master/logo.png" width="130">
   </a>
   <a href = "https://t.me/EyeTubeAiBot">
   <h1 align="center"><strong>PigTune</strong></h1>
