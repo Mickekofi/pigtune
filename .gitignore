@@ -1,5 +1,7 @@
 # Ignore Python bytecode files
-pigenv
+*.pyc
+pig
+pig/
 .ipynb_checkpoints/
 env1/
 temp_images/
