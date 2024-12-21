@@ -110,16 +110,16 @@ def send_welcome(message):
     # Creating buttons
     markup = telebot.types.ReplyKeyboardMarkup(row_width=2)
     itembtn1 = telebot.types.KeyboardButton('/Help')
-    itembtn2 = telebot.types.KeyboardButton('/About')
+    itembtn2 = telebot.types.KeyboardButton('/Engineer')
     itembtn3 = telebot.types.KeyboardButton('/check_update')
     itembtn4 = telebot.types.KeyboardButton('/update')
     markup.add(itembtn1, itembtn2, itembtn3, itembtn4)
 
-    bot.reply_to(message, f"🕹 {bot_info.username} is Operated by {admin}.\n\n𝙎𝙚𝙣𝙙 𝙖𝙣 𝙄𝙢𝙖𝙜𝙚 🫗", reply_markup=markup)
+    bot.reply_to(message, f"🕹 {bot_info.username} is Operated by {admin}.\n\n𝙎𝙚𝙣𝙙 me 𝙖𝙣 𝙄𝙢𝙖𝙜𝙚 🫗 for Magic", reply_markup=markup)
 
 #============================================================================================
 #About
-@bot.message_handler(commands=['About'])
+@bot.message_handler(commands=['Help'])
 def open_about_command(message):
     # Create an inline keyboard
     keyboard = types.InlineKeyboardMarkup()
@@ -134,22 +134,40 @@ def open_about_command(message):
     keyboard.add(button5)
     # Send the message with the inline keyboard
     bot.send_message(message.chat.id, "About Info", reply_markup=keyboard)
-
-@bot.message_handler(commands=['Help'])
-def open_link_command(message):
-    # Create an inline keyboard
-    keyboard = types.InlineKeyboardMarkup()
-    button1 = types.InlineKeyboardButton(text="✅ 𝐏𝐢𝐠𝐓𝐮𝐧𝐞 𝐇𝐞𝐥𝐩", url="https://github.com/Mickekofi/pigtune")
-    button2 = types.InlineKeyboardButton(text="❓ 𝐖𝐡𝐚𝐭 𝐂𝐚𝐧 𝐏𝐢𝐠𝐓𝐮𝐧𝐞 𝐃𝐨", url="https://github.com/Mickekofi/pigtune")
-
-    keyboard.add(button1)
-    keyboard.add(button2)
     
-    # Send a message with the inline keyboard
-    bot.send_message(message.chat.id, '''Help\n
-                click any!''', reply_markup=keyboard)
+    bot.send_message(message.chat.id,'''❓𝐒𝐮𝐠𝐠𝐞𝐬𝐭 𝐚𝐧 𝐈𝐬𝐬𝐮𝐞 𝐚 𝐁𝐮𝐠 𝐨𝐫 𝐚 𝐅𝐞𝐚𝐭𝐮𝐫𝐞 𝐑𝐞𝐪𝐮𝐞𝐬𝐭?📬𝐬;
+    𝐜𝐨𝐩𝐲 𝐚𝐧𝐝 𝐩𝐚𝐬𝐭𝐞 below 𝐢𝐧 𝐲𝐨𝐮𝐫 𝐛𝐫𝐨𝐰𝐬𝐞𝐫 
+                     👇''')
+    bot.send_message(message.chat.id, f'''mailto:eyetubebot@gmail.com?subject=📬ID_{message.from_user.id}%20[Issue]%20Report%20&body=(🖇Please_Attach_your_Issue_screenshot)%0A%0A-[Country]:%0A%0A%0A%0A-%5BPlease%20describe%20your%20Issue%20here%5D%20:
+                     ''')
+    
 
+    
+@bot.message_handler(commands=['Engineer'])
+def send_engineer(message):
+    # Send photo of the developer
+    bot.send_photo(message.chat.id, open('Michael.jpg', 'rb'), caption="💬 \"🅰🅽🆈🅱🅾🅳🆈 🅲🅰🅽 🅲🅾🅾🅺\" - 𝗠𝗶𝗰𝗵𝗮𝗲𝗹 𝗔𝗽𝗽𝗶𝗮𝗵")
 
+    # Provide contact details and a brief bio
+    bot.reply_to(message, """
+    
+𝐘𝐞𝐥𝐥𝐨 , 𝐈'𝐦 𝐌𝐢𝐜𝐡𝐚𝐞𝐥 𝐀𝐩𝐩𝐢𝐚𝐡, 𝐚𝐧 𝐚𝐬𝐩𝐢𝐫𝐢𝐧𝐠 𝐀𝐫𝐭𝐢𝐟𝐢𝐜𝐢𝐚𝐥 𝐈𝐧𝐭𝐞𝐥𝐥𝐢𝐠𝐞𝐧𝐜𝐞 𝐄𝐧𝐠𝐢𝐧𝐞𝐞𝐫 𝐚𝐧𝐝 𝐭𝐡𝐞 𝐥𝐞𝐚𝐝𝐞𝐫 𝐨𝐟 𝐏𝐨𝐬𝐬𝐢𝐛𝐢𝐥𝐢𝐭𝐲 𝐀𝐢 𝐚𝐧𝐝 𝐂𝐮𝐫𝐫𝐞𝐧𝐭𝐥𝐲 𝐚 𝐒𝐭𝐮𝐝𝐞𝐧𝐭 𝐨𝐟 𝐭𝐡𝐞 𝐔𝐧𝐢𝐯𝐞𝐫𝐬𝐢𝐭𝐲 𝐨𝐟 𝐄𝐝𝐮𝐜𝐚𝐭𝐢𝐨𝐧, 𝐖𝐢𝐧𝐧𝐞𝐛𝐚.
+    
+    𝐈 𝐬𝐩𝐞𝐜𝐢𝐚𝐥𝐢𝐳𝐞 𝐢𝐧 𝐁𝐮𝐢𝐥𝐝𝐢𝐧𝐠 𝐀𝐢 𝐀𝐮𝐭𝐨𝐦𝐚𝐭𝐞𝐝 𝐂𝐡𝐚𝐭𝐁𝐨𝐭𝐬, 𝐒𝐲𝐬𝐭𝐞𝐦𝐬 𝐀𝐮𝐭𝐨𝐦𝐚𝐭𝐢𝐨𝐧 𝐚𝐧𝐝 𝐒𝐨𝐟𝐭𝐰𝐚𝐫𝐞 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐦𝐞𝐧𝐭 𝐮𝐬𝐢𝐧𝐠 𝐏𝐲𝐭𝐡𝐨𝐧 𝐚𝐧𝐝 𝐂++.
+
+    𝐂𝐨𝐧𝐧𝐞𝐜𝐭 𝐰𝐢𝐭𝐡 𝐦𝐞:  
+               
+    • 𝙇𝙞𝙣𝙠𝙚𝙙𝙄𝙣: [𝙈𝙞𝙘𝙝𝙖𝙚𝙡 𝘼𝙥𝙥𝙞𝙖𝙝](https://www.linkedin.com/in/michael-appiah-9b6919255) 💼
+    
+    • 𝙓(𝙏𝙬𝙞𝙩𝙩𝙚𝙧) : ( https://x.com/mickekofi )             
+   
+    • 𝙂𝙞𝙩𝙃𝙪𝙗: [𝙈𝙞𝙘𝙠𝙚𝙠𝙤𝙛𝙞] (https://github.com/Mickekofi) 🧑‍💻
+    
+    
+                 
+            ©️ Possibility AI `24
+                                  
+    """)
 
 
 # Image Processing Zone
