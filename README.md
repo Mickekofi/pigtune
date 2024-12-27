@@ -3,7 +3,7 @@
     <img src="https://github.com/Mickekofi/pigtune/blob/master/logo.png" width="130">
   </a>
   <a href = "https://t.me/EyeTubeAiBot">
-  <h1 align="center"><strong>PigTune</strong></h1>
+  <h1 align="center"><strong>PigTune Bot</strong></h1>
   </a>
   <p align="center">
     <a href="https://chat.whatsapp.com/Et2oy7QEwHVGzcYkIAimYO">
