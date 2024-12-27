@@ -178,5 +178,26 @@ If you find any bugs or have suggestions for improvements, feel free to [open an
 
 1. ```pytelegram library ```
 
+#### You can decide to buy or push to us a cup of ☕️ coffee in our skrill to skrill account at : 👇
+
+ ```
+ michaelappiah6910
+ ```
+
+or
+
+#### in our USDT cryto Wallet ID : 👇
+
+TETHER US(USDT)
+
+```
+
+TKAg7Sj4JpsAtjSc3kaXt6b14RWKvovzQS
+```
+
+**Network: TRON (TRC-20)**
+
+
+**✨ We’re grateful for any support you can provide to help us continue this journey. Thank you for considering supporting our work!**
 
 ## [👥 𝐖𝐡𝐨 𝐚𝐫𝐞 𝐰𝐞? ](https://github.com/Mickekofi/pigtune/tree/master/who_we_are.md)
