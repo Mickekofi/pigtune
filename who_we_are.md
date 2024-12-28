@@ -24,6 +24,9 @@
      We call Ourselves ✨ Possibility AI.
 
 
+## 🌐 Socials:
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/Michael(Ubuntu)Appiah) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com) 
+
 ## 🪐 Our Mission
      
 - As part to contribute to the Societal Evolution into the new Era  full of Technology advancements, the 
@@ -143,3 +146,7 @@ TKAg7Sj4JpsAtjSc3kaXt6b14RWKvovzQS
 
 
 **✨ We’re grateful for any support you can provide to help us continue this journey. Thank you for considering supporting our work!**
+
+
+## 🌐 Socials:
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/Michael(Ubuntu)Appiah) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com) 
