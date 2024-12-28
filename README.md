@@ -178,8 +178,6 @@ If you find any bugs or have suggestions for improvements, feel free to [open an
 
 1. ```pytelegram library ```
 
-## 🌐 Socials:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/Michael(Ubuntu)Appiah) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/mickekofi) 
 
 #### You can decide to buy or push to us a cup of ☕️ coffee in our skrill to skrill account at : 👇
 
